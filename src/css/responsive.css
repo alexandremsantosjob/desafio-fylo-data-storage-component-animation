@@ -49,31 +49,18 @@
         margin-top: 5rem;
         
     }
-    
-
-}
-
-@media (max-width:425px) {
-    body{
-        display: flex;
-        justify-content: center;
-        min-width: 420px;
-    }
 
     .wraper .icons{
         animation: none;
     }
+    
+
 }
 
 @media (max-width:375px) {
-
     body{
-        width: 375px;
-        background-image: url(../images/bg-mobile.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-size: 667px;
     }
-    
     .wraper .icons{
         animation: none;
     }
@@ -83,6 +70,7 @@
 
     body{
         width: 360px;
+        background-size: 667px;
     }
     
     .wraper .icons{
@@ -94,6 +82,8 @@
 
     body{
         width: 393px;
+        background-size: 667px;
+
     }
     
     .wraper .icons{
@@ -101,3 +91,15 @@
     }
 }
 
+@media (max-width:320px) {
+
+    body{
+        width: 320px;
+        background-size: 667px;
+
+    }
+    
+    .wraper .icons{
+        animation: none;
+    }
+}
