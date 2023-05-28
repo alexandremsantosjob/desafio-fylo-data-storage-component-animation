@@ -3,8 +3,6 @@
     body{
         display: flex;
         justify-content: center;
-        min-width: 425px;
-        height: 100vh;
         background-image: url(../images/bg-mobile.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -13,12 +11,11 @@
     }
 
     .container{
-        min-width: 320px;
-
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: 0 auto;
+        animation: none;
     }
 
     .wraper{
@@ -59,8 +56,9 @@
 
 @media (max-width:375px) {
     body{
-        background-size: 667px;
+        background-size: 1024px;
     }
+
     .wraper .icons{
         animation: none;
     }
@@ -78,25 +76,11 @@
     }
 }
 
-@media (max-width:393px) {
-
-    body{
-        width: 393px;
-        background-size: 667px;
-
-    }
-    
-    .wraper .icons{
-        animation: none;
-    }
-}
 
 @media (max-width:320px) {
 
     body{
-        width: 320px;
-        background-size: 667px;
-
+        background-size: 1024px;
     }
     
     .wraper .icons{

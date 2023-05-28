@@ -28,7 +28,6 @@ body {
     background-size: contain;
 
     background-color: var(--color-very-dark-blue);
-    animation: body 2s ease-in-out;
 }
 
 .container {
@@ -36,6 +35,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 18rem;
+    animation: container 2s ease;
+
 }
 
 .wraper {
@@ -63,7 +64,7 @@ body {
 
 .wraper .icons {
     display: flex;
-    animation: wraper 2s infinite;
+    animation: wraper 2s;
 }
 
 .img-icon {

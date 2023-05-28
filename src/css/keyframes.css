@@ -1,6 +1,6 @@
-@keyframes body {
+@keyframes container {
     0%{
-        transform: scale(1.2);
+        transform: scale3d(1.5, 1.2, 0.3)
 
     }
 }
