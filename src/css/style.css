@@ -1,0 +1,218 @@
+:root {
+
+    /* fundo bar */
+
+    --color-primary-one: hsl(6, 100%, 80%);
+    --color-primary-two: hsl(335, 100%, 65%);  
+    --color-background: linear-gradient(to right, var(--color-primary-one), var(--color-primary-two));
+
+    --color-pale-blue: hsl(243, 100%, 93%);
+    --color-grayish-blue: hsl(229, 7%, 55%);
+    --color-dark-blue: hsl(228, 56%, 26%);
+    --color-very-dark-blue: hsl(229, 57%, 11%);
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    min-width: 1440px;
+    min-height: 100vh;
+    font-size: 1.4rem;
+    background-image: url(../images/bg-desktop.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--color-very-dark-blue);
+    animation: body 2s ease-in-out;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18rem;
+}
+
+.wraper {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    height: 20rem;
+    background-color: var(--color-dark-blue);
+    border-radius: 1rem 9rem 1rem 1rem;
+    padding: 4rem;
+    animation: wraper 4s;
+}
+
+.wraper a {
+    margin-bottom: 3rem;
+}
+
+#logo {
+    animation: logo 2s;
+}
+
+#logo:active{
+    transform: scale(1.1);
+}
+
+.wraper .icons {
+    display: flex;
+    animation: wraper 2s infinite;
+}
+
+.img-icon {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+    margin-right: 1.5rem;
+    background-color: var(--color-very-dark-blue);
+    border-radius: 0.5rem;   
+}
+
+.img-icon:hover{
+    transform: scale(1.2);
+
+}
+
+.img-icon:active{
+    
+    transform: scale(1.1);
+   
+}
+
+    /* WHAPER WHITE */
+
+.wraper-white {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 17rem;
+    height: 6.3rem;
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px; 
+    bottom: 16rem;
+    left: 29rem;
+    animation: wraper-white 2s ;
+    box-shadow: 1.2rem 1.4rem 0.2rem 0rem rgba(0,0,0,0.15);
+}
+
+.wraper-white:before {
+    content: "";
+    width: 17rem;
+    height: 9rem;
+    position: absolute;
+    background-color: #fff;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 80% 50%, 0% 0%);
+    border-radius: 1rem 1rem 0rem;
+    z-index: 1;
+    animation: wraper-white 5s ; 
+}
+
+.wraper-white .wraper-white-info p {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-grayish-blue);
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+
+.wraper-white-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.wraper-white span {
+    color: var(--color-very-dark-blue);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+    /* WHAPER RIGHT */
+
+
+.wraper-right {
+    
+    margin-top: 5rem;
+    margin-left: 3rem;
+    width: 54rem;
+    height: 15rem;
+    background-color: var(--color-dark-blue);
+    border-radius: 1rem;
+    padding: 4rem;
+    animation: wraper-right 2s ease-in-out;
+}
+
+.wraper-right p {
+    margin-bottom: 2rem;
+    font-weight: 400;
+    color: var(--color-pale-blue);
+}
+
+.wraper-right p span {
+    font-weight: 700;
+}
+
+    /* BAR */
+
+.wraper-right .bar {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-very-dark-blue);
+    width: 100%;
+    height: 2rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.wraper-right  .bar-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 1.4rem;
+    background: var(--color-background);
+    animation: barra 4s;
+    border-radius: 1rem;
+    position: absolute;
+}
+
+ .wraper-right .bar-ball {
+
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: var(--color-pale-blue);
+    border-radius: 50%;
+    animation: ball 4s both;
+    position: absolute;
+} 
+
+.wraper-right .bar-gb {
+
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+    /* FOOTER */
+
+ .attribution {
+    font-size: 1.1rem; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} 

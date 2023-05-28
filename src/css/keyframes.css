@@ -1,0 +1,91 @@
+@keyframes body {
+    0%{
+        transform: scale(1.2);
+
+    }
+}
+
+@keyframes logo {
+    0%{
+        transform: rotateX(360deg);
+    }
+    
+}
+
+@keyframes wraper {
+    0%{
+        width: 30rem;
+        height: 20rem;
+        
+        display: none;
+    }
+
+
+    100%
+    {
+        width: 35rem;
+        height: 20rem;
+        
+    }
+}
+
+@keyframes wraper-white {
+    0%{
+        width: 17rem;
+
+    }
+
+
+    100%
+    {
+        width: 17rem;
+       
+    }
+}
+
+@keyframes wraper-right {
+    0%{
+        width: 44rem;
+        height: 15rem;
+    }
+
+
+    100%
+    {
+        width: 54rem;
+        height: 15rem;
+        
+    }
+}
+
+@keyframes barra {
+    0%{
+        width: 1%;
+    
+    }
+
+    25%{
+        width: 25%;
+    }   
+
+    50%{
+        width: 50%;
+    }
+
+    85%{
+        width: 85%;
+    }
+
+}
+
+
+
+ @keyframes ball {
+    0%{
+        margin-left: 65%;
+    }
+
+    100%{
+        margin-left: 95%;
+    }
+}
