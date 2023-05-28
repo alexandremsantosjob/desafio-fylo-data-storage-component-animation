@@ -13,20 +13,20 @@
 }
 
 
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-    min-width: 1440px;
+    max-width: 1440px;
     min-height: 100vh;
     font-size: 1.4rem;
     background-image: url(../images/bg-desktop.png);
-    background-position: bottom;
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain;
+
     background-color: var(--color-very-dark-blue);
     animation: body 2s ease-in-out;
 }

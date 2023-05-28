@@ -69,7 +69,6 @@
 
     body{
         width: 375px;
-        height: 882px;
         background-image: url(../images/bg-mobile.png);
         background-size: cover;
         background-repeat: no-repeat;
