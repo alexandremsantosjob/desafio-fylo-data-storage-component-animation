@@ -24,7 +24,7 @@
 
     .wraper-white{
         bottom: 0;
-        left: 5rem;  
+        left: 4rem;  
         animation: none;
         box-shadow: none;
     }
@@ -56,6 +56,9 @@
 
 @media (max-width:375px) {
     body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-size: 1024px;
     }
 
@@ -67,6 +70,9 @@
 @media (max-width:360px) {
 
     body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 360px;
         background-size: 667px;
     }
@@ -80,10 +86,55 @@
 @media (max-width:320px) {
 
     body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../images/bg-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         background-size: 1024px;
     }
-    
+       
     .wraper .icons{
         animation: none;
+    }
+}
+
+@media (max-width: 768px){
+
+    body{
+        background-image: url(../images/bg-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-size: 1024px;
+
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+    
+    body{
+        flex-wrap: wrap;
+        background-image: url(../images/bg-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
