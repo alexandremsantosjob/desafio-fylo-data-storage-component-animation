@@ -77,6 +77,10 @@
         background-size: 667px;
     }
     
+    .container{
+        animation: none;
+    }
+
     .wraper .icons{
         animation: none;
     }
@@ -94,8 +98,13 @@
         background-size: cover;
         background-position: center;
         background-size: 1024px;
+
     }
-       
+    
+    .container{
+        animation: none;
+
+    }
     .wraper .icons{
         animation: none;
     }
@@ -117,6 +126,8 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        animation: none;
+
     }
 }
 
@@ -128,6 +139,8 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        animation: none;
+
 
     }
 
@@ -136,5 +149,6 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        animation: none;
     }
 }
